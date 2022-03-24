@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2032
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -135,6 +135,10 @@
         {
           "diameter": 0.8,
           "drill": 0.4
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false,
@@ -391,6 +395,7 @@
         "nets": [
           "/BG1",
           "/BG2",
+          "/BG2_",
           "/BOOST1",
           "/BOOST2",
           "/TG1",
@@ -418,12 +423,16 @@
         "name": "sensitive",
         "nets": [
           "/CSNIN",
+          "/CSNIN_0",
           "/CSNOUT",
           "/CSNOUT_0",
           "/CSPIN",
-          "/CSPOUT"
+          "/CSPOUT",
+          "/FBIN",
+          "/FBOUT",
+          "/FBOUT_0"
         ],
-        "pcb_color": "rgb(205, 202, 153)",
+        "pcb_color": "rgb(150, 205, 197)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
