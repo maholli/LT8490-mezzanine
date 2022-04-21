@@ -1,7 +1,7 @@
 # LT8490-mezzanine
 Castellated mezzanine board for LT8490 solar charging buck/boost charger
 
-Modular solar energy harvester and battery charger
+### Modular solar energy harvester and battery charger
 - High power (>600W)
 - Vsolar input: ~5V to 80V
 - Vbatt 1.3V to 80V (covers everything from 1S, 2S, ... 20S, etc)
