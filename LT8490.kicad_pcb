@@ -1216,7 +1216,7 @@
       (effects (font (size 0.635 0.635) (thickness 0.127)))
       (tstamp 58a87288-e2bf-4c88-9871-a753efc69e9d)
     )
-    (fp_text value "124K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "23.7K" (at 0 1.43) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e9a9fba3-7cfa-45ca-926c-a5a8ecd7e3a4)
     )
@@ -24553,7 +24553,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp a5c05d88-9d22-4c8c-903b-75e3a0e268b2) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.127)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.127) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -24933,7 +24933,7 @@
   (zone (net 0) (net_name "") (layers "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu") (tstamp c0916cb0-cc8b-4eba-8585-da7bd9463ed3) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
