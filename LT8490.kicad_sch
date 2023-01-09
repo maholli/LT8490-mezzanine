@@ -4622,7 +4622,7 @@
     (property "Value" "MBR1020VL" (id 1) (at 134.112 51.5513 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 132.08 50.8 0)
+    (property "Footprint" "Diode_SMD:D_PowerDI-123" (id 2) (at 132.08 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 50.8 0)
@@ -4948,7 +4948,7 @@
     (property "Value" "MBR1020VL" (id 1) (at 115.062 51.5513 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 113.03 50.8 0)
+    (property "Footprint" "Diode_SMD:D_PowerDI-123" (id 2) (at 113.03 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 113.03 50.8 0)
@@ -6702,10 +6702,10 @@
       (reference "C43") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/735821d5-c933-409c-b96d-1d60d9085727"
-      (reference "D1") (unit 1) (value "MBR1020VL") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D1") (unit 1) (value "MBR1020VL") (footprint "Diode_SMD:D_PowerDI-123")
     )
     (path "/528ec391-38c0-4c96-9975-7dacb1e30217"
-      (reference "D2") (unit 1) (value "MBR1020VL") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D2") (unit 1) (value "MBR1020VL") (footprint "Diode_SMD:D_PowerDI-123")
     )
     (path "/3b48b997-b2e1-4d81-af37-fb5bf851b4f4"
       (reference "D12") (unit 1) (value "CMMR1U-02 TR") (footprint "Diode_SMD:D_SOD-123F")
